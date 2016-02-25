@@ -1,4 +1,4 @@
-function [results] = parseCoords( filename )
+function [results] = tspread( filename )
 %TSPREAD - Reads a file in .tsp format containing data for traveling
 %salesperson data.
 %
