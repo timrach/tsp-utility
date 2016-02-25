@@ -85,5 +85,6 @@ while(ischar(line))
     line = fgetl(fid);
 end
 results('COORDINATES') = coordinates;
+end
 %------------- END OF CODE --------------
 
