@@ -1,7 +1,7 @@
 function [ output_args ] = drawtsp( coords, path, direction)
-%DRAWTSP - Draws a tsp problem and, if given, a path in it.
+%DRAWTSP - Draws a tsp problem and a path in it.
 %
-%INPUT: The problem coordinates and optional an array of point ids
+%INPUT: The problem coordinates and an array of point ids
 %       representing a path in the problem.
 %       Coordinates must be given as mx2 array, the path is a 1xn array.
 %
