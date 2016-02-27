@@ -1,0 +1,8 @@
+%Test tspread
+
+%% Number of Attributes
+result = tspread('testproblem.tsp');
+assert(size(result,1) == 6);
+assert(size(result,2) == 2);
+
+%% of Attributes
